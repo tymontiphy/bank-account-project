@@ -15,10 +15,10 @@ The Bank Account Management System is a Python-based application designed to man
 
 ## Features
 - User account creation
-- Multiple account types (savings, checking)
 - Deposit and withdrawal transactions
 - Transaction history tracking
 - Account balance checking
+- Deleting users, accounts, and transactions data
 
 ## Installation
 
@@ -33,18 +33,14 @@ The Bank Account Management System is a Python-based application designed to man
     cd bank-account-project
     ```
 
-2. **Create and activate a virtual environment**:
+2. **Install the required dependencies**:
     ```sh
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    source #!usr/bin/python3  
+    pipenv install
+    pipenv shell
     ```
 
-3. **Install the required dependencies**:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-4. **Set up the database**:
+3. **Set up the database**:
     ```sh
     cd lib/db
     alembic upgrade head
@@ -61,22 +57,22 @@ The Bank Account Management System is a Python-based application designed to man
 2. **Example Commands**:
     - Create a new user:
       ```python
-      create_user(name="Alice", email="alice@example.com")
+      create_user(name=" ")
       ```
 
     - Create a new account for a user:
       ```python
-      create_account(user_id=1, account_type="savings")
+      create_account(user_id=1)
       ```
 
     - Deposit money into an account:
       ```python
-      deposit(account_id=1, amount=100.0, description="Initial deposit")
+      deposit(account_id=1, amount=100.0)
       ```
 
     - Withdraw money from an account:
       ```python
-      withdraw(account_id=1, amount=20.0, description="ATM withdrawal")
+      withdraw(account_id=1, amount=20.0)
       ```
 
     - Check account balance:
@@ -90,7 +86,7 @@ The Bank Account Management System is a Python-based application designed to man
       ```
 
 ## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request for any features, git remote add origin https://github.com/tymontiphy/bank-account-project.gitenhancements, or bug fixes.
+Contributions are welcome! Please fork the repository and submit a pull request for any features, git remote add origin https://github.com/tymontiphy/bank-account-project.git
 
 1. **Fork the repository**
 2. **Create a new branch (`git checkout -b feature-branch`)**
