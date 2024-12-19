@@ -9,12 +9,15 @@ Welcome to the Bank Account Management System! This project allows you to manage
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 The Bank Account Management System is a Python-based application designed to manage user accounts and perform banking transactions. It uses SQLAlchemy as the ORM for database interactions and Alembic for database migrations.
 
 ## Features
 - User account creation
+- user can also create more than one account
 - Deposit and withdrawal transactions
 - Transaction history tracking
 - Account balance checking
@@ -99,5 +102,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## author
 simon tiphy
- 
+
+## contact
+simontiphy@gmail.com
+
+## acknowledgements
+I want to express my deepest gratitude to my technical mentor, @Brian Ng'eno, whose invaluable guidance and unwavering support have been instrumental in the success of this project.
+
  ### code .
