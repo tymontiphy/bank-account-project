@@ -1,6 +1,7 @@
-# Bank Account Management System
+# BANKING HUB
 
-Welcome to the Bank Account Management System! This project allows you to manage user accounts, handle transactions, and maintain account balances seamlessly.
+## Bank Account Management System
+Welcome to banking hub ! This project allows you to manage user accounts, handle transactions, and maintain account balances seamlessly.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -13,7 +14,7 @@ Welcome to the Bank Account Management System! This project allows you to manage
 - [Acknowledgments](#acknowledgments)
 
 ## Introduction
-The Bank Account Management System is a Python-based application designed to manage user accounts and perform banking transactions. It uses SQLAlchemy as the ORM for database interactions and Alembic for database migrations.
+The Banking hub is a Python-based application designed to manage user accounts and perform banking transactions. It uses SQLAlchemy as the ORM for database interactions and Alembic for database migrations.
 
 ## Features
 - User account creation
