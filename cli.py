@@ -5,7 +5,7 @@ from helpers import (
 
 def main():
     # Welcome message
-    print("Welcome to the Bank Account Management System!")
+    print("Welcome to the Banking Hub!")
 
     while True:
         # Display the menu options to the user
@@ -50,7 +50,7 @@ def main():
         elif choice == '9':
             delete_transaction()  
         elif choice == '10':
-            print("Goodbye!")  # Exit message
+            print("Thank you for banking with us!")  # Exit message
             break  # Exit the loop and end the program
         else:
             print("Invalid choice. Please try again.")  # Handle invalid menu option
